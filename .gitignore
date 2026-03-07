@@ -1,0 +1,24 @@
+# Ignore 
+
+.config/gh/
+
+.config/mozilla/
+
+.config/pulse/
+
+.config/dconf/
+
+*.sqlite
+
+*.sqlite-wal
+
+*.sqlite-shm
+
+.parentlock
+
+lock
+
+
+# System junk
+
+.DS_Store
