@@ -1,0 +1,138 @@
+[2026-03-12 21:05:02.795]: Info: Sunshine version: 2025.924.154138 commit: 86188d47a7463b0f73b35de18a628353adeaa20e
+[2026-03-12 21:05:02.795]: Info: Package Publisher: LizardByte
+[2026-03-12 21:05:02.795]: Info: Publisher Website: https://app.lizardbyte.dev
+[2026-03-12 21:05:02.795]: Info: Get support: https://app.lizardbyte.dev/support
+[2026-03-12 21:05:02.797]: Info: Found display [wayland-1]
+[2026-03-12 21:05:02.797]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-12 21:05:02.797]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-12 21:05:02.797]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-12 21:05:02.797]: Info: Found interface: wl_output(66) version 4
+[2026-03-12 21:05:02.797]: Info: Resolution: 2560x1440
+[2026-03-12 21:05:02.797]: Info: Name: HDMI-A-1
+[2026-03-12 21:05:02.797]: Info: Found monitor: Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)
+[2026-03-12 21:05:02.797]: Info: Offset: 0x0
+[2026-03-12 21:05:02.797]: Info: Logical size: 2560x1440
+[2026-03-12 21:05:02.797]: Info: -------- Start of Wayland monitor list --------
+[2026-03-12 21:05:02.797]: Info: Monitor 0 is HDMI-A-1: Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)
+[2026-03-12 21:05:02.797]: Info: --------- End of Wayland monitor list ---------
+[2026-03-12 21:05:02.963]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2026-03-12 21:05:02.963]: Info: Trying encoder [nvenc]
+[2026-03-12 21:05:02.963]: Info: Screencasting with Wayland's protocol
+[2026-03-12 21:05:02.963]: Info: Found display [wayland-1]
+[2026-03-12 21:05:02.963]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-12 21:05:02.963]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-12 21:05:02.963]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-12 21:05:02.963]: Info: Found interface: wl_output(66) version 4
+[2026-03-12 21:05:02.964]: Info: Resolution: 2560x1440
+[2026-03-12 21:05:02.964]: Info: Name: HDMI-A-1
+[2026-03-12 21:05:02.964]: Info: Found monitor: Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)
+[2026-03-12 21:05:02.964]: Info: Offset: 0x0
+[2026-03-12 21:05:02.964]: Info: Logical size: 2560x1440
+[2026-03-12 21:05:02.964]: Info: Selected monitor [Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)] for streaming
+[2026-03-12 21:05:02.964]: Info: Creating encoder [h264_nvenc]
+[2026-03-12 21:05:02.964]: Info: Color coding: SDR (Rec. 601)
+[2026-03-12 21:05:02.964]: Info: Color depth: 8-bit
+[2026-03-12 21:05:02.964]: Info: Color range: JPEG
+[2026-03-12 21:05:03.051]: Info: Streaming bitrate is 1000000
+[2026-03-12 21:05:03.055]: Warning: [h264_nvenc @ 0x560dfe219780] Multiple reference frames are not supported by the device
+[2026-03-12 21:05:03.055]: Error: [h264_nvenc @ 0x560dfe219780] Provided device doesn't support required NVENC features
+[2026-03-12 21:05:03.367]: Error: Could not open codec [h264_nvenc]: Function not implemented
+[2026-03-12 21:05:03.367]: Info: Creating encoder [h264_nvenc]
+[2026-03-12 21:05:03.367]: Info: Color coding: SDR (Rec. 601)
+[2026-03-12 21:05:03.367]: Info: Color depth: 8-bit
+[2026-03-12 21:05:03.367]: Info: Color range: JPEG
+[2026-03-12 21:05:03.411]: Info: Streaming bitrate is 1000000
+[2026-03-12 21:05:03.432]: Error: Couldn't scale frame: Invalid argument
+[2026-03-12 21:05:03.700]: Info: Encoder [nvenc] failed
+[2026-03-12 21:05:03.701]: Info: Trying encoder [vaapi]
+[2026-03-12 21:05:03.701]: Info: Screencasting with Wayland's protocol
+[2026-03-12 21:05:03.701]: Info: Found display [wayland-1]
+[2026-03-12 21:05:03.701]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-12 21:05:03.701]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-12 21:05:03.701]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-12 21:05:03.701]: Info: Found interface: wl_output(66) version 4
+[2026-03-12 21:05:03.701]: Info: Resolution: 2560x1440
+[2026-03-12 21:05:03.701]: Info: Name: HDMI-A-1
+[2026-03-12 21:05:03.701]: Info: Found monitor: Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)
+[2026-03-12 21:05:03.701]: Info: Offset: 0x0
+[2026-03-12 21:05:03.701]: Info: Logical size: 2560x1440
+[2026-03-12 21:05:03.701]: Info: Selected monitor [Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)] for streaming
+[2026-03-12 21:05:03.701]: Info: Creating encoder [h264_vaapi]
+[2026-03-12 21:05:03.701]: Info: Color coding: SDR (Rec. 601)
+[2026-03-12 21:05:03.701]: Info: Color depth: 8-bit
+[2026-03-12 21:05:03.701]: Info: Color range: JPEG
+[2026-03-12 21:05:03.724]: Error: Couldn't initialize va display: unknown libva error
+[2026-03-12 21:05:03.724]: Info: Creating encoder [h264_vaapi]
+[2026-03-12 21:05:03.724]: Info: Color coding: SDR (Rec. 601)
+[2026-03-12 21:05:03.724]: Info: Color depth: 8-bit
+[2026-03-12 21:05:03.724]: Info: Color range: JPEG
+[2026-03-12 21:05:03.726]: Error: Couldn't initialize va display: unknown libva error
+[2026-03-12 21:05:03.727]: Info: Encoder [vaapi] failed
+[2026-03-12 21:05:03.727]: Info: Trying encoder [software]
+[2026-03-12 21:05:03.727]: Info: Screencasting with Wayland's protocol
+[2026-03-12 21:05:03.727]: Info: Found display [wayland-1]
+[2026-03-12 21:05:03.727]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-12 21:05:03.727]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-12 21:05:03.727]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-12 21:05:03.727]: Info: Found interface: wl_output(66) version 4
+[2026-03-12 21:05:03.727]: Info: Resolution: 2560x1440
+[2026-03-12 21:05:03.727]: Info: Name: HDMI-A-1
+[2026-03-12 21:05:03.728]: Info: Found monitor: Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)
+[2026-03-12 21:05:03.728]: Info: Offset: 0x0
+[2026-03-12 21:05:03.728]: Info: Logical size: 2560x1440
+[2026-03-12 21:05:03.728]: Info: Selected monitor [Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)] for streaming
+[2026-03-12 21:05:03.731]: Info: Creating encoder [libx264]
+[2026-03-12 21:05:03.731]: Info: Color coding: SDR (Rec. 601)
+[2026-03-12 21:05:03.731]: Info: Color depth: 8-bit
+[2026-03-12 21:05:03.731]: Info: Color range: JPEG
+[2026-03-12 21:05:03.731]: Info: Streaming bitrate is 1000000
+[2026-03-12 21:05:03.731]: Info: [libx264 @ 0x560dfe219780] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-12 21:05:03.733]: Info: [libx264 @ 0x560dfe219780] profile High, level 4.2, 4:2:0, 8-bit
+[2026-03-12 21:05:03.756]: Info: [libx264 @ 0x560dfe219780] frame I:1     Avg QP:31.00  size:  1203
+[2026-03-12 21:05:03.756]: Info: [libx264 @ 0x560dfe219780] mb I  I16..4: 99.9%  0.0%  0.0%
+[2026-03-12 21:05:03.756]: Info: [libx264 @ 0x560dfe219780] 8x8 transform intra:0.0%
+[2026-03-12 21:05:03.756]: Info: [libx264 @ 0x560dfe219780] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2026-03-12 21:05:03.756]: Info: [libx264 @ 0x560dfe219780] i16 v,h,dc,p: 97%  0%  3%  0%
+[2026-03-12 21:05:03.756]: Info: [libx264 @ 0x560dfe219780] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2026-03-12 21:05:03.756]: Info: [libx264 @ 0x560dfe219780] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2026-03-12 21:05:03.756]: Info: [libx264 @ 0x560dfe219780] i8c dc,h,v,p: 100%  0%  0%  0%
+[2026-03-12 21:05:03.756]: Info: [libx264 @ 0x560dfe219780] kb/s:577.44
+[2026-03-12 21:05:03.757]: Info: Creating encoder [libx264]
+[2026-03-12 21:05:03.757]: Info: Color coding: SDR (Rec. 601)
+[2026-03-12 21:05:03.757]: Info: Color depth: 8-bit
+[2026-03-12 21:05:03.757]: Info: Color range: JPEG
+[2026-03-12 21:05:03.757]: Info: Streaming bitrate is 1000000
+[2026-03-12 21:05:03.757]: Info: [libx264 @ 0x560dfe219780] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2026-03-12 21:05:03.758]: Info: [libx264 @ 0x560dfe219780] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2026-03-12 21:05:03.788]: Info: [libx264 @ 0x560dfe219780] frame I:1     Avg QP:31.00  size:  1308
+[2026-03-12 21:05:03.788]: Info: [libx264 @ 0x560dfe219780] mb I  I16..4: 99.9%  0.0%  0.0%
+[2026-03-12 21:05:03.788]: Info: [libx264 @ 0x560dfe219780] 8x8 transform intra:0.0%
+[2026-03-12 21:05:03.788]: Info: [libx264 @ 0x560dfe219780] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2026-03-12 21:05:03.788]: Info: [libx264 @ 0x560dfe219780] i16 v,h,dc,p: 97%  0%  3%  0%
+[2026-03-12 21:05:03.788]: Info: [libx264 @ 0x560dfe219780] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2026-03-12 21:05:03.788]: Info: [libx264 @ 0x560dfe219780] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2026-03-12 21:05:03.788]: Info: [libx264 @ 0x560dfe219780] kb/s:627.84
+[2026-03-12 21:05:03.789]: Info: Screencasting with Wayland's protocol
+[2026-03-12 21:05:03.789]: Info: Found display [wayland-1]
+[2026-03-12 21:05:03.789]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2026-03-12 21:05:03.789]: Info: Found interface: zwlr_screencopy_manager_v1(56) version 3
+[2026-03-12 21:05:03.789]: Info: Found interface: zwp_linux_dmabuf_v1(65) version 5
+[2026-03-12 21:05:03.789]: Info: Found interface: wl_output(66) version 4
+[2026-03-12 21:05:03.789]: Info: Resolution: 2560x1440
+[2026-03-12 21:05:03.789]: Info: Name: HDMI-A-1
+[2026-03-12 21:05:03.789]: Info: Found monitor: Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)
+[2026-03-12 21:05:03.789]: Info: Offset: 0x0
+[2026-03-12 21:05:03.789]: Info: Logical size: 2560x1440
+[2026-03-12 21:05:03.789]: Info: Selected monitor [Dell Inc. DELL P2423DE 1G6WNR3 (HDMI-A-1)] for streaming
+[2026-03-12 21:05:03.792]: Info: 
+[2026-03-12 21:05:03.792]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2026-03-12 21:05:03.792]: Info: 
+[2026-03-12 21:05:03.792]: Info: Found H.264 encoder: libx264 [software]
+[2026-03-12 21:05:03.792]: Info: Open the Web UI to set your new username and password and getting started
+[2026-03-12 21:05:03.793]: Info: File /home/valeria/.config/sunshine/sunshine_state.json doesn't exist
+[2026-03-12 21:05:03.793]: Info: Starting system tray
+[2026-03-12 21:05:03.793]: Fatal: Couldn't bind RTSP server to port [48010], Address already in use
+[2026-03-12 21:05:03.796]: Info: Adding avahi service valeria-systemproductname
+[2026-03-12 21:05:03.848]: Info: System tray created
+[2026-03-12 21:05:03.848]: Info: Starting main loop
+[2026-03-12 21:05:03.848]: Info: Shutdown event detected, breaking main loop

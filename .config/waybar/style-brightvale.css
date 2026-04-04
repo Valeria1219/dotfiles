@@ -1,0 +1,104 @@
+@define-color bg #eeeedf;
+@define-color bg_2 #e5e4d2;
+@define-color bg_3 #f5f5eb;
+@define-color shelf #e0dece;
+@define-color border #c8c8b2;
+@define-color border_2 #8a8868;
+@define-color primary #524d27;
+@define-color text #2d2a18;
+@define-color text_2 #524d27;
+@define-color text_3 #8a8868;
+@define-color text_4 #b8b694;
+@define-color gold #c08f4e;
+@define-color violet #4c2f51;
+@define-color ruby #814233;
+@define-color success #5a7a3a;
+
+* {
+  font-family: 'Courier Prime', monospace;
+  font-size: 11px;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+box {
+  background-color: @bg_2;
+  border-bottom: 1px solid @border;
+  color: @text;
+  padding: 0 12px;
+}
+
+/* WORKSPACES */
+button {
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  background-image: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+
+#workspaces button {
+  padding: 0 6px;
+  margin: 4px 2px;
+  background-color: transparent;
+  color: @text_3;
+  border-radius: 4px;
+  border: 1px solid @border;
+  min-width: 24px;
+  box-shadow: none;
+}
+
+#workspaces button.active {
+  color: @primary;
+  border: 2px solid @primary;
+  border-radius: 4px;
+}
+
+#workspaces button.occupied {
+  background-color: @shelf;
+  color: @primary;
+  border-color: @text_4;
+}
+
+#workspaces button:hover {
+  background-color: @shelf;
+  color: @text_2;
+  box-shadow: none;
+}
+
+/* CLOCK */
+#clock.time {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  color: @text;
+  padding: 0 4px 0 8px;
+}
+
+#clock.date {
+  font-family: 'Cormorant Garamond', serif;  
+  font-size: 14px;
+  color: @text;
+  padding: 0 8px 0 4px;
+}
+
+/* RIGHT MODULES */
+#custom-gpu,
+#cpu,
+#memory {
+  font-family: 'Courier Prime', monospace;
+  font-size: 11px;
+  color: @text_2;
+  padding: 0 8px;
+  border: 1px solid @border;
+  border-radius: 4px;
+  margin: 4px 2px;
+}

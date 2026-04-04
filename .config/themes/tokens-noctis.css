@@ -1,0 +1,29 @@
+:root {
+  --bg:        #030101;
+  --bg-2:      #0a0606;
+  --bg-3:      #140a0a;
+  --shelf:     #0f0808;
+  --border:    #2a0f0e;
+  --border-2:  #4b181a;
+  --primary:   #391310;
+  --text:      #e8ddd5;
+  --text-2:    #c4a89e;
+  --text-3:    #847b6e;
+  --text-4:    #3d2018;
+  --gold:      #847b6e;
+  --violet:    #4c2f51;
+  --ruby:      #814233;
+  --success:   #4a6632;
+  --glow:      rgba(132,123,110,0.25);
+  --candle:    rgba(57,19,16,0.35);
+  --shadow:    rgba(0,0,0,0.55);
+  --shadow-2:  rgba(0,0,0,0.25);
+  --tooltip-bg: rgba(57,19,16,0.85);
+  --toast-bg:  rgba(10,6,6,0.78);
+  --toast-float: rgba(0,0,0,0.35);
+
+  --font-display:  'Cinzel', serif;
+  --font-subhead:  'Cormorant Garamond', serif;
+  --font-body:     'EB Garamond', serif;
+  --font-mono:     'Courier Prime', monospace;
+}
